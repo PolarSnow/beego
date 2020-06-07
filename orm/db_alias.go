@@ -50,7 +50,7 @@ func (d driver) Name() string {
 	return string(d)
 }
 
-// check driver iis implemented Driver interface or not.
+// check driver is implemented Driver interface or not.
 var _ Driver = new(driver)
 
 var (
